@@ -1,26 +1,21 @@
-Litecoin Core integration/staging tree
+World Space Agency Coin integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/litecoin-project/litecoin.svg?branch=master)](https://travis-ci.org/litecoin-project/litecoin)
+[![Build Status](https://api.travis-ci.org/Disruption/wsacoin.svg?branch=master)](https://travis-ci.org/Disruption/wsacoin)
 
-https://litecoin.org
+https://worldspace.agency
 
-What is Litecoin?
+What is WSACoin?
 ----------------
 
-Litecoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Litecoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Litecoin Core is the name of open source
-software which enables the use of this currency.
+WSA Coin is a cryptocurrency that focuses the mining effort on scientifical investigation rather than on strictly hashing/mining transactions. It aims at putting all the processing power involved in mining to practical use, making the electricity and hardware used for it not go to waste.
 
-For more information, as well as an immediately useable, binary version of
-the Litecoin Core software, see [https://litecoin.org](https://litecoin.org).
+For more information, as well as an immediately useable, binary version of the WSA Coin software, see [https://worldspace.agency](https://worldspace.agency).
 
 License
 -------
 
-Litecoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+WSA Coin is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
