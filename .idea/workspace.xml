@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="WSACoin" targetName="WSACoin" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d53a6099-7755-4ba2-a28f-66d4eb81ef24" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/WSACoin.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeRCCompiler.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/DependInfo.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/build.make" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/cmake_clean.cmake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/depend.make" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/flags.make" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/link.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/objects1.rsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WSACoin.dir/progress.make" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/WSACoin.cbp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/COPYING" afterPath="$PROJECT_DIR$/COPYING" />
+      <change beforePath="$PROJECT_DIR$/Makefile.am" afterPath="$PROJECT_DIR$/Makefile.am" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/configure.ac" afterPath="$PROJECT_DIR$/configure.ac" />
+      <change beforePath="$PROJECT_DIR$/contrib/README.md" afterPath="$PROJECT_DIR$/contrib/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/devtools/gen-manpages.sh" afterPath="$PROJECT_DIR$/contrib/devtools/gen-manpages.sh" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-build.sh" afterPath="$PROJECT_DIR$/contrib/gitian-build.sh" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/README.md" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" />
+      <change beforePath="$PROJECT_DIR$/contrib/linearize/README.md" afterPath="$PROJECT_DIR$/contrib/linearize/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/linearize/example-linearize.cfg" afterPath="$PROJECT_DIR$/contrib/linearize/example-linearize.cfg" />
+      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/README.md" afterPath="$PROJECT_DIR$/contrib/macdeploy/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/custom_dsstore.py" afterPath="$PROJECT_DIR$/contrib/macdeploy/custom_dsstore.py" />
+      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/detached-sig-create.sh" afterPath="$PROJECT_DIR$/contrib/macdeploy/detached-sig-create.sh" />
+      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/fancy.plist" afterPath="$PROJECT_DIR$/contrib/macdeploy/fancy.plist" />
+      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/macdeployqtplus" afterPath="$PROJECT_DIR$/contrib/macdeploy/macdeployqtplus" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/README.md" afterPath="$PROJECT_DIR$/contrib/qos/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/tc.sh" afterPath="$PROJECT_DIR$/contrib/qos/tc.sh" />
+      <change beforePath="$PROJECT_DIR$/contrib/seeds/README.md" afterPath="$PROJECT_DIR$/contrib/seeds/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/seeds/generate-seeds.py" afterPath="$PROJECT_DIR$/contrib/seeds/generate-seeds.py" />
+      <change beforePath="$PROJECT_DIR$/contrib/seeds/makeseeds.py" afterPath="$PROJECT_DIR$/contrib/seeds/makeseeds.py" />
+      <change beforePath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" afterPath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" />
+      <change beforePath="$PROJECT_DIR$/contrib/testgen/README.md" afterPath="$PROJECT_DIR$/contrib/testgen/README.md" />
+      <change beforePath="$PROJECT_DIR$/contrib/tidy_datadir.sh" afterPath="$PROJECT_DIR$/contrib/tidy_datadir.sh" />
+      <change beforePath="$PROJECT_DIR$/depends/README.md" afterPath="$PROJECT_DIR$/depends/README.md" />
+      <change beforePath="$PROJECT_DIR$/doc/README.md" afterPath="$PROJECT_DIR$/doc/README.md" />
+      <change beforePath="$PROJECT_DIR$/doc/README_osx.md" afterPath="$PROJECT_DIR$/doc/README_osx.md" />
+      <change beforePath="$PROJECT_DIR$/doc/README_windows.txt" afterPath="$PROJECT_DIR$/doc/README_windows.txt" />
+      <change beforePath="$PROJECT_DIR$/doc/REST-interface.md" afterPath="$PROJECT_DIR$/doc/REST-interface.md" />
+      <change beforePath="$PROJECT_DIR$/doc/assets-attribution.md" afterPath="$PROJECT_DIR$/doc/assets-attribution.md" />
+      <change beforePath="$PROJECT_DIR$/doc/benchmarking.md" afterPath="$PROJECT_DIR$/doc/benchmarking.md" />
+      <change beforePath="$PROJECT_DIR$/doc/build-openbsd.md" afterPath="$PROJECT_DIR$/doc/build-openbsd.md" />
+      <change beforePath="$PROJECT_DIR$/doc/build-osx.md" afterPath="$PROJECT_DIR$/doc/build-osx.md" />
+      <change beforePath="$PROJECT_DIR$/doc/build-unix.md" afterPath="$PROJECT_DIR$/doc/build-unix.md" />
+      <change beforePath="$PROJECT_DIR$/doc/build-windows.md" afterPath="$PROJECT_DIR$/doc/build-windows.md" />
+      <change beforePath="$PROJECT_DIR$/doc/developer-notes.md" afterPath="$PROJECT_DIR$/doc/developer-notes.md" />
+      <change beforePath="$PROJECT_DIR$/doc/dnsseed-policy.md" afterPath="$PROJECT_DIR$/doc/dnsseed-policy.md" />
+      <change beforePath="$PROJECT_DIR$/doc/files.md" afterPath="$PROJECT_DIR$/doc/files.md" />
+      <change beforePath="$PROJECT_DIR$/doc/fuzzing.md" afterPath="$PROJECT_DIR$/doc/fuzzing.md" />
+      <change beforePath="$PROJECT_DIR$/doc/gitian-building.md" afterPath="$PROJECT_DIR$/doc/gitian-building.md" />
+      <change beforePath="$PROJECT_DIR$/doc/litecoin-release-notes/release-notes-0.13.2.md" afterPath="$PROJECT_DIR$/doc/wsacoin-release-notes/release-notes-0.13.2.md" />
+      <change beforePath="$PROJECT_DIR$/doc/man/Makefile.am" afterPath="$PROJECT_DIR$/doc/man/Makefile.am" />
+      <change beforePath="$PROJECT_DIR$/doc/man/litecoin-cli.1" afterPath="$PROJECT_DIR$/doc/man/wsacoin-cli.1" />
+      <change beforePath="$PROJECT_DIR$/doc/man/litecoin-qt.1" afterPath="$PROJECT_DIR$/doc/man/wsacoin-qt.1" />
+      <change beforePath="$PROJECT_DIR$/doc/man/litecoin-tx.1" afterPath="$PROJECT_DIR$/doc/man/wsacoin-tx.1" />
+      <change beforePath="$PROJECT_DIR$/doc/man/litecoind.1" afterPath="$PROJECT_DIR$/doc/man/wsacoind.1" />
+      <change beforePath="$PROJECT_DIR$/doc/reduce-traffic.md" afterPath="$PROJECT_DIR$/doc/reduce-traffic.md" />
+      <change beforePath="$PROJECT_DIR$/doc/release-notes-litecoin.md" afterPath="$PROJECT_DIR$/doc/release-notes-wsacoin.md" />
+      <change beforePath="$PROJECT_DIR$/doc/release-process.md" afterPath="$PROJECT_DIR$/doc/release-process.md" />
+      <change beforePath="$PROJECT_DIR$/doc/tor.md" afterPath="$PROJECT_DIR$/doc/tor.md" />
+      <change beforePath="$PROJECT_DIR$/doc/travis-ci.md" afterPath="$PROJECT_DIR$/doc/travis-ci.md" />
+      <change beforePath="$PROJECT_DIR$/doc/zmq.md" afterPath="$PROJECT_DIR$/doc/zmq.md" />
+      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist.in" afterPath="$PROJECT_DIR$/share/qt/Info.plist.in" />
+      <change beforePath="$PROJECT_DIR$/share/rpcuser/rpcuser.py" afterPath="$PROJECT_DIR$/share/rpcuser/rpcuser.py" />
+      <change beforePath="$PROJECT_DIR$/share/setup.nsi.in" afterPath="$PROJECT_DIR$/share/setup.nsi.in" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.am" afterPath="$PROJECT_DIR$/src/Makefile.am" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.bench.include" afterPath="$PROJECT_DIR$/src/Makefile.bench.include" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.qt.include" afterPath="$PROJECT_DIR$/src/Makefile.qt.include" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.qttest.include" afterPath="$PROJECT_DIR$/src/Makefile.qttest.include" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.test.include" afterPath="$PROJECT_DIR$/src/Makefile.test.include" />
+      <change beforePath="$PROJECT_DIR$/src/bench/.gitignore" afterPath="$PROJECT_DIR$/src/bench/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/bench/checkblock.cpp" afterPath="$PROJECT_DIR$/src/bench/checkblock.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/bitcoin-cli-res.rc" afterPath="$PROJECT_DIR$/src/bitcoin-cli-res.rc" />
+      <change beforePath="$PROJECT_DIR$/src/bitcoin-cli.cpp" afterPath="$PROJECT_DIR$/src/bitcoin-cli.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/bitcoin-tx-res.rc" afterPath="$PROJECT_DIR$/src/bitcoin-tx-res.rc" />
+      <change beforePath="$PROJECT_DIR$/src/bitcoin-tx.cpp" afterPath="$PROJECT_DIR$/src/bitcoin-tx.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/bitcoind-res.rc" afterPath="$PROJECT_DIR$/src/bitcoind-res.rc" />
+      <change beforePath="$PROJECT_DIR$/src/bitcoind.cpp" afterPath="$PROJECT_DIR$/src/bitcoind.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/chainparams.cpp" afterPath="$PROJECT_DIR$/src/chainparams.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/chainparamsseeds.h" afterPath="$PROJECT_DIR$/src/chainparamsseeds.h" />
+      <change beforePath="$PROJECT_DIR$/src/clientversion.cpp" afterPath="$PROJECT_DIR$/src/clientversion.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/init.cpp" afterPath="$PROJECT_DIR$/src/init.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/net.cpp" afterPath="$PROJECT_DIR$/src/net.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/net_processing.cpp" afterPath="$PROJECT_DIR$/src/net_processing.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/policy/feerate.cpp" afterPath="$PROJECT_DIR$/src/policy/feerate.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/pow.cpp" afterPath="$PROJECT_DIR$/src/pow.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" afterPath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoin.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoin.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoin.qrc" afterPath="$PROJECT_DIR$/src/qt/bitcoin.qrc" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/modaloverlay.ui" afterPath="$PROJECT_DIR$/src/qt/forms/modaloverlay.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" afterPath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/receivecoinsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/receivecoinsdialog.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiconstants.h" afterPath="$PROJECT_DIR$/src/qt/guiconstants.h" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_af.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_af.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_be_BY.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_be_BY.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg_BG.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg_BG.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca@valencia.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca@valencia.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_de_DE.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_de_DE.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_en_AU.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en_AU.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_en_GB.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en_GB.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_419.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_419.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CO.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CO.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_DO.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_DO.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_ES.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_MX.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_MX.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_UY.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_UY.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_VE.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_VE.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_et_EE.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_et_EE.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_FR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_FR.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_gl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_gl.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_he_IL.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_he_IL.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_id_ID.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_id_ID.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja_JP.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja_JP.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ka.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ka.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_kk_KZ.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_kk_KZ.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ko_KR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ko_KR.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ky.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ky.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_mk_MK.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_mk_MK.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_mn.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_mn.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ms_MY.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ms_MY.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb_NO.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb_NO.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ne.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ne.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl_NL.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl_NL.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pam.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pam.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru_RU.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru_RU.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sl_SI.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sl_SI.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sq.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sq.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr@latin.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr@latin.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ta.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ta.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_te.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_te.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_uz@Cyrl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_uz@Cyrl.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_vi_VN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_vi_VN.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_HK.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_HK.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" />
+      <change beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" />
+      <change beforePath="$PROJECT_DIR$/src/qt/networkstyle.cpp" afterPath="$PROJECT_DIR$/src/qt/networkstyle.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/openuridialog.cpp" afterPath="$PROJECT_DIR$/src/qt/openuridialog.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/paymentrequest.proto" afterPath="$PROJECT_DIR$/src/qt/paymentrequest.proto" />
+      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/res/bitcoin-qt-res.rc" afterPath="$PROJECT_DIR$/src/qt/res/bitcoin-qt-res.rc" />
+      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/litecoin_splash.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/wsacoin_splash.png" />
+      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/paymentrequestdata.h" afterPath="$PROJECT_DIR$/src/qt/test/paymentrequestdata.h" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/rpcnestedtests.cpp" afterPath="$PROJECT_DIR$/src/qt/test/rpcnestedtests.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/test_main.cpp" afterPath="$PROJECT_DIR$/src/qt/test/test_main.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/uritests.cpp" afterPath="$PROJECT_DIR$/src/qt/test/uritests.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" afterPath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/rpc/blockchain.cpp" afterPath="$PROJECT_DIR$/src/rpc/blockchain.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/rpc/mining.cpp" afterPath="$PROJECT_DIR$/src/rpc/mining.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/rpc/misc.cpp" afterPath="$PROJECT_DIR$/src/rpc/misc.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/rpc/net.cpp" afterPath="$PROJECT_DIR$/src/rpc/net.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/rpc/rawtransaction.cpp" afterPath="$PROJECT_DIR$/src/rpc/rawtransaction.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/rpc/server.cpp" afterPath="$PROJECT_DIR$/src/rpc/server.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/test/README.md" afterPath="$PROJECT_DIR$/src/test/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/test/amount_tests.cpp" afterPath="$PROJECT_DIR$/src/test/amount_tests.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_bitcoin.cpp" afterPath="$PROJECT_DIR$/src/test/test_bitcoin.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/txdb.cpp" afterPath="$PROJECT_DIR$/src/txdb.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/util.cpp" afterPath="$PROJECT_DIR$/src/util.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/validation.cpp" afterPath="$PROJECT_DIR$/src/validation.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/rpcdump.cpp" afterPath="$PROJECT_DIR$/src/wallet/rpcdump.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/rpcwallet.cpp" afterPath="$PROJECT_DIR$/src/wallet/rpcwallet.cpp" />
+      <change beforePath="$PROJECT_DIR$/test/functional/bumpfee.py" afterPath="$PROJECT_DIR$/test/functional/bumpfee.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/fundrawtransaction.py" afterPath="$PROJECT_DIR$/test/functional/fundrawtransaction.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/multi_rpc.py" afterPath="$PROJECT_DIR$/test/functional/multi_rpc.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/p2p-segwit.py" afterPath="$PROJECT_DIR$/test/functional/p2p-segwit.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/test_framework/mininode.py" afterPath="$PROJECT_DIR$/test/functional/test_framework/mininode.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/test_framework/test_framework.py" afterPath="$PROJECT_DIR$/test/functional/test_framework/test_framework.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/test_framework/util.py" afterPath="$PROJECT_DIR$/test/functional/test_framework/util.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/test_runner.py" afterPath="$PROJECT_DIR$/test/functional/test_runner.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/test_script_address2.py" afterPath="$PROJECT_DIR$/test/functional/test_script_address2.py" />
+      <change beforePath="$PROJECT_DIR$/test/functional/zmq_test.py" afterPath="$PROJECT_DIR$/test/functional/zmq_test.py" />
+      <change beforePath="$PROJECT_DIR$/test/util/data/bitcoin-util-test.json" afterPath="$PROJECT_DIR$/test/util/data/bitcoin-util-test.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="111" column="18" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.app</find>
+      <find>itecoin</find>
+      <find>Litecoin-qt.app</find>
+      <find>Litecoin Core</find>
+      <find>developers</find>
+      <find>wsacoin-qt.app</find>
+      <find>litecoin-project/litecoin</find>
+      <find>LITECOIN</find>
+      <find>lite</find>
+      <find>ltc</find>
+      <find>LTC</find>
+      <find>lit</find>
+      <find>Litecoin</find>
+      <find>litecoin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>WSACoin Core</replace>
+      <replace>disruption/wsacoin</replace>
+      <replace>WSACOIN</replace>
+      <replace>wsac</replace>
+      <replace>WSAC</replace>
+      <replace>WSACoin</replace>
+      <replace />
+      <replace>wsacoin</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\workspaceGithub\WSACoin\src\qt\locale</dir>
+      <dir>C:\workspaceGithub\WSACoin</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/doc/wsacoin-release-notes/release-notes-0.13.2.md" />
+        <option value="$PROJECT_DIR$/doc/man/wsacoin-qt.1" />
+        <option value="$PROJECT_DIR$/doc/man/wsacoind.1" />
+        <option value="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" />
+        <option value="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" />
+        <option value="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" />
+        <option value="$PROJECT_DIR$/src/qt/test/paymentrequestdata.h" />
+        <option value="$PROJECT_DIR$/src/validation.cpp" />
+        <option value="$PROJECT_DIR$/src/policy/feerate.cpp" />
+        <option value="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" />
+        <option value="$PROJECT_DIR$/src/rpc/mining.cpp" />
+        <option value="$PROJECT_DIR$/src/test/amount_tests.cpp" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/configure.ac" />
+        <option value="$PROJECT_DIR$/COPYING" />
+        <option value="$PROJECT_DIR$/CONTRIBUTING.md" />
+        <option value="$PROJECT_DIR$/Makefile.am" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" />
+        <option value="$PROJECT_DIR$/contrib/gitian-build.sh" />
+        <option value="$PROJECT_DIR$/contrib/README.md" />
+        <option value="$PROJECT_DIR$/contrib/tidy_datadir.sh" />
+        <option value="$PROJECT_DIR$/contrib/devtools/gen-manpages.sh" />
+        <option value="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" />
+        <option value="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" />
+        <option value="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" />
+        <option value="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" />
+        <option value="$PROJECT_DIR$/contrib/linearize/example-linearize.cfg" />
+        <option value="$PROJECT_DIR$/contrib/linearize/README.md" />
+        <option value="$PROJECT_DIR$/src/qt/locale/bitcoin_af.ts" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="linearize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="man" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="wsacoin-release-notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qt" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WSACoin" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="WSACoin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qt" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WSACoin">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="WSACoin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WSACoin" TARGET_NAME="WSACoin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="WSACoin" RUN_TARGET_NAME="WSACoin">
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WSACoin" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d53a6099-7755-4ba2-a28f-66d4eb81ef24" name="Default" comment="" />
+      <created>1518361350073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518361350073</updated>
+      <workItem from="1518361353277" duration="2682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2682000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30965006" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/contrib/linearize/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/bitcoin_af.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8615">
+          <caret line="753" column="33" lean-forward="false" selection-start-line="753" selection-start-column="33" selection-end-line="753" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/wsacoin-cli.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/Makefile.am">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/wsacoin-qt.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="458" column="28" lean-forward="false" selection-start-line="458" selection-start-column="28" selection-end-line="458" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/wsacoin-tx.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/res/icons/wsacoin_splash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/wsacoind.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="286" column="22" lean-forward="false" selection-start-line="286" selection-start-column="22" selection-end-line="286" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/wsacoin-release-notes/release-notes-0.13.2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="265" column="53" lean-forward="false" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/release-notes-wsacoin.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="489" column="17" lean-forward="true" selection-start-line="489" selection-start-column="17" selection-end-line="489" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/wsacoin-qt.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3294">
+          <caret line="458" column="28" lean-forward="false" selection-start-line="458" selection-start-column="28" selection-end-line="458" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/wsacoin-release-notes/release-notes-0.13.2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="229" column="10" lean-forward="false" selection-start-line="229" selection-start-column="10" selection-end-line="229" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2865">
+          <caret line="294" column="39" lean-forward="false" selection-start-line="294" selection-start-column="39" selection-end-line="294" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/man/wsacoind.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="286" column="22" lean-forward="true" selection-start-line="286" selection-start-column="22" selection-end-line="286" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/forms/overviewpage.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4310">
+          <caret line="376" column="52" lean-forward="false" selection-start-line="376" selection-start-column="52" selection-end-line="376" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15938">
+          <caret line="1255" column="42" lean-forward="false" selection-start-line="1255" selection-start-column="42" selection-end-line="1255" selection-end-column="42" />
+          <folding>
+            <element signature="e#29893#29899#0" expanded="false" />
+            <element signature="e#29911#29917#0" expanded="false" />
+            <element signature="e#29955#29961#0" expanded="false" />
+            <element signature="e#29975#29981#0" expanded="false" />
+            <element signature="e#41801#41806#0" expanded="false" />
+            <element signature="e#42622#42627#0" expanded="false" />
+            <element signature="e#43162#43167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/test/paymentrequestdata.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7429">
+          <caret line="437" column="70" lean-forward="false" selection-start-line="437" selection-start-column="70" selection-end-line="437" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/validation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="841" column="73" lean-forward="false" selection-start-line="841" selection-start-column="73" selection-end-line="841" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/policy/feerate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/amount_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="104" column="58" lean-forward="false" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rpc/mining.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="827" column="92" lean-forward="false" selection-start-line="827" selection-start-column="92" selection-end-line="827" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/bitcoinunits.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/macdeploy/custom_dsstore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure.ac">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19618">
+          <caret line="1154" column="47" lean-forward="false" selection-start-line="1154" selection-start-column="47" selection-end-line="1154" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="159" column="113" lean-forward="false" selection-start-line="159" selection-start-column="113" selection-end-line="159" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile.am">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="144" column="50" lean-forward="false" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="67" column="38" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5988">
+          <caret line="375" column="84" lean-forward="false" selection-start-line="375" selection-start-column="84" selection-end-line="375" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="46" column="63" lean-forward="false" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/tidy_datadir.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/devtools/gen-manpages.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="190" column="101" lean-forward="false" selection-start-line="190" selection-start-column="101" selection-end-line="190" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="113" column="15" lean-forward="false" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="173" column="21" lean-forward="false" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/linearize/example-linearize.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/linearize/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/bitcoin_af.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8615">
+          <caret line="753" column="33" lean-forward="false" selection-start-line="753" selection-start-column="33" selection-end-line="753" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="111" column="18" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
